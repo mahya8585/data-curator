@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+    <Gather finishOnKey="#" timeout="30" method="POST"
+            action="https://prod-12.japaneast.logic.azure.com:443/workflows/logicappのトリガーURL">
+        <Say voice="alice" language="ja-JP">本日の体温を入力してください。入力が終わったらシャープを押してください</Say>
+    </Gather>
+    <Say voice="alice" language="ja-JP">ありがとうございました</Say>
+</Response>
