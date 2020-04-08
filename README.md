@@ -32,7 +32,7 @@
     - 必要であれば。
     
 例えばPower BIなんか使って、ユーザ一人一人の体温変化グラフなどを見ることができるようにしたり    
-![実際にやったグラフ]()    
+![実際にやったグラフ](https://github.com/mahya8585/data-curator/blob/master/img/readme-2.png)    
     
 位置情報が取れたり(もしくは事前に登録しておいてもらったり)、個人情報入力しておいてもらうと、マップとか年代別グラフとかも出せますね    
-![実際にやったグラフ2]()
+![実際にやったグラフ2](https://github.com/mahya8585/data-curator/blob/master/img/readme-3.png)
