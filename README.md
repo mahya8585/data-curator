@@ -12,6 +12,16 @@
         - from : twilioの電話番号
 - get-bodytemperature.xml
     - Gatherタグ action : 電話終了後に飛ばしたい先。私の場合はLogic Apps. Gather内に持っているデータをpost bodyで受け取れます
+    
+## 1回の電話で複数のプッシュデータを取得したい場合
+Twilio Studio + Twilio functionsなどを使って、1データずつDBへデータを送信する必要があります。    
+![twilio-studioの画面](https://github.com/mahya8585/data-curator/tree/master/img/twilio-studio.png)    
+    
+- Twilio Studioを使わずにAzure Logic AppsやAzure Functionsなどを使ってデータフローを組むのも良いと思います
+- DB設計として、RDBのテーブルに毎回アップデートをかけに行くよりは、KVSなどにデータをためて、最後にRDB登録をする、などの形のほうがスマートかなと思います。
+
+![あとでここに図を追加する](あとでここに図を追加する)    
+    
 ## 電話からデータを取得したあとの挙動について
  DBへのデータの登録は好きにやってもらって構いませんが、私はAzure Logic appを使ってDBへデータ登録を行いました。   
  今後詳細追記しますがとり急ぎ。
