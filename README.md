@@ -15,7 +15,7 @@
     
 ## 1回の電話で複数のプッシュデータを取得したい場合
 Twilio Studio + Twilio functionsなどを使って、1データずつDBへデータを送信する必要があります。    
-![twilio-studioの画面](https://github.com/mahya8585/data-curator/tree/master/img/twilio-studio.png)    
+![twilio-studioの画面](https://github.com/mahya8585/data-curator/blob/master/img/twilio-studio.png)    
     
 - Twilio Studioを使わずにAzure Logic AppsやAzure Functionsなどを使ってデータフローを組むのも良いと思います
 - DB設計として、RDBのテーブルに毎回アップデートをかけに行くよりは、KVSなどにデータをためて、最後にRDB登録をする、などの形のほうがスマートかなと思います。
